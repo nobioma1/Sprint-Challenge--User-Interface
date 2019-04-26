@@ -170,6 +170,10 @@ nav a {
   color: black;
 }
 
+section {
+  margin: 20px 0;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -243,6 +247,43 @@ nav a {
 }
 .box10 {
   background-color: dodgerblue;
+}
+
+.about-top-content {
+  border-bottom: 1px dashed black;
+}
+
+article{
+  padding: 20px;  
+}
+
+.content-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+}
+
+.column-item {
+  width: 45%;
+  border-bottom: 1px dashed black;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.column-item h2 {
+  margin: 8px 0 0 0;
+}
+
+.column-item p {
+  margin: 20px 0;
+}
+
+.column-item a {
+  text-decoration: none;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 5px 20px;
 }
 
 .bottom-content {
