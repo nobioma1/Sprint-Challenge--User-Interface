@@ -300,6 +300,39 @@ article{
   padding-right: 0;
 }
 
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+form div {
+  padding: 5px 0;
+}
+
+.form-container form div input, textarea{
+  width: 100%;
+  margin: 10px 5px;
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-container form button {
+  background-color: dodgerblue;
+  align-self: flex-end;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
 footer {
   width: 100%;
   background: black;
