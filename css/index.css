@@ -333,6 +333,35 @@ form div {
   border-radius: 5px;
 }
 
+.blog-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-column-item {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.blog-column-item img{
+  border-radius: 5px; 
+}
+
+.blog-column-item article h2{
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.blog-column-item article p{
+  padding: 10px 0;
+}
+
+.blog-column-item article a{
+  text-decoration: none;
+  color: lightblue;
+}
+
 footer {
   width: 100%;
   background: black;
